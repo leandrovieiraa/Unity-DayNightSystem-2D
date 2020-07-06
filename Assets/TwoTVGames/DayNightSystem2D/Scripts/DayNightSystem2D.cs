@@ -54,6 +54,7 @@ public class DayNightSystem2D : MonoBehaviour
     public Color midnight; // Eg: 00:00 at 06:00
 
     [Header("Objects")]
+    [Tooltip("Objects to turn on and off based on day night cycles, you can use this example for create some custom stuffs")]
     public Light2D[] mapLights; // enable/disable in day/night states
 
     void Start() 

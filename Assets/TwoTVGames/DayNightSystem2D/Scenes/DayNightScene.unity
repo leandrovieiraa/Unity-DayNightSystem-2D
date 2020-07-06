@@ -334,7 +334,7 @@ PrefabInstance:
     - target: {fileID: 1445072777746858487, guid: fc7a5e24cc034b1429a00a62d0b04fec,
         type: 3}
       propertyPath: cycleMaxTime
-      value: 5
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5090104135708015505, guid: fc7a5e24cc034b1429a00a62d0b04fec,
         type: 3}
