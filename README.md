@@ -16,5 +16,20 @@ With this addon you can add a immersive Day and Night system for your 2D game ba
 - Free support and to use!
 
 ## Showcase
+[Gif Link]("https://i.imgur.com/4Jxyp0E.gif")
 
-![img](https://i.imgur.com/4Jxyp0E.gif)
+**Sunrise**
+
+![img2](https://i.imgur.com/AIGDV2F.png)
+
+**Day**
+
+![img](https://i.imgur.com/4zFf2JM.png)
+
+**Sunset**
+
+![img](https://i.imgur.com/pzNbmt8.png)
+
+**Night**
+
+![img](https://i.imgur.com/d0UCkUg.png)
