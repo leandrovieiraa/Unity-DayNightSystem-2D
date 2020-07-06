@@ -331,20 +331,25 @@ PrefabInstance:
       propertyPath: mapLights.Array.data[1]
       value: 
       objectReference: {fileID: 1345592054}
+    - target: {fileID: 1445072777746858487, guid: fc7a5e24cc034b1429a00a62d0b04fec,
+        type: 3}
+      propertyPath: cycleMaxTime
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5090104135708015505, guid: fc7a5e24cc034b1429a00a62d0b04fec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.81288373
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5090104135708015505, guid: fc7a5e24cc034b1429a00a62d0b04fec,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.97832733
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5090104135708015505, guid: fc7a5e24cc034b1429a00a62d0b04fec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.822266
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5090104135708015505, guid: fc7a5e24cc034b1429a00a62d0b04fec,
         type: 3}

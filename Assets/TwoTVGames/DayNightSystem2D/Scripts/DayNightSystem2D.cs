@@ -3,7 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
-public enum DayCycles
+/*
+- Creator:    Two TV Games (@gallighanmaker)
+- Script:     Day And Night 2D System
+- Unity:      2019 LTS Version
+- Email:      leandrovieira92@gmail.com
+- Github:     https://github.com/leandrovieiraa
+*/
+
+public enum DayCycles // Enum with day and night cycles, you can change or modify with whatever you want
 {
     Sunrise = 0,
     Day = 1,
@@ -15,17 +23,35 @@ public enum DayCycles
 public class DayNightSystem2D : MonoBehaviour
 {
     [Header("Controllers")]
+    
+    [Tooltip("Global light 2D component, we need to use this object to place light in all map objects")]
     public Light2D globalLight; // global light
+    
+    [Tooltip("This is a current cycle time, you can change for private float but we keep public only for debug")]
     public float cycleCurrentTime = 0; // current cycle time
+    
+    [Tooltip("This is a cycle max time in seconds, if current time reach this value we change the state of the day and night cyles")]
     public float cycleMaxTime = 60; // duration of cycle
+
+    [Tooltip("Enum with multiple day cycles to change over time, you can add more types and modify whatever you want to fits on your project")]
     public DayCycles dayCycle = DayCycles.Sunrise; // default cycle
 
     [Header("Cycle Colors")]
-    public Color sunrise; // 6:00 at 10:00
-    public Color day; // 10:00 at 16:00
-    public Color sunset; // 16:00 20:00
-    public Color night; // 20:00 at 00:00
-    public Color midnight; // 00:00 at 06:00
+    
+    [Tooltip("Sunrise color, you can adjust based on best color for this cycle")]
+    public Color sunrise; // Eg: 6:00 at 10:00
+    
+    [Tooltip("(Mid) Day color, you can adjust based on best color for this cycle")]
+    public Color day; // Eg: 10:00 at 16:00
+    
+    [Tooltip("Sunset color, you can adjust based on best color for this cycle")]
+    public Color sunset; // Eg: 16:00 20:00
+    
+    [Tooltip("Night color, you can adjust based on best color for this cycle")]
+    public Color night; // Eg: 20:00 at 00:00
+    
+    [Tooltip("Midnight color, you can adjust based on best color for this cycle")]
+    public Color midnight; // Eg: 00:00 at 06:00
 
     [Header("Objects")]
     public Light2D[] mapLights; // enable/disable in day/night states
