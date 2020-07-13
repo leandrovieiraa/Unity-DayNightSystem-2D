@@ -9,7 +9,7 @@ With this addon you can add a immersive Day and Night system for your 2D game ba
 
 ## Features
 
-- [Documentation Link]("https://paper.dropbox.com/published/Unity-Day-and-Night-System-2D--A3OXRBJOrLy1PQOQsn52Fb27Bg-kCxq3SK4vdzzlMwayvAcAUt")
+- [Documentation Link](https://paper.dropbox.com/published/Unity-Day-and-Night-System-2D--A3OXRBJOrLy1PQOQsn52Fb27Bg-kCxq3SK4vdzzlMwayvAcAUt)
 - Simple and easy to use
 - C# crafted code and all lines commented
 - Include demo scene and prefabs
