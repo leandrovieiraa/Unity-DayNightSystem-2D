@@ -5,7 +5,7 @@ With this addon you can add a immersive Day and Night system for your 2D game ba
 
 ## Asset Store
 
-(Link)(https://assetstore.unity.com/packages/tools/particles-effects/day-and-night-2d-system-174620)
+[Link](https://assetstore.unity.com/packages/tools/particles-effects/day-and-night-2d-system-174620)
 
 ## Features
 
